@@ -277,7 +277,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -999192660467439950, guid: 1c605e8b238fd4caf9ac85d7595fda2c, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -999192660467439950, guid: 1c605e8b238fd4caf9ac85d7595fda2c, type: 3}
       propertyPath: m_UsedByEffector
@@ -330,6 +330,10 @@ PrefabInstance:
     - target: {fileID: 2945910675921556808, guid: 1c605e8b238fd4caf9ac85d7595fda2c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2945910675921556811, guid: 1c605e8b238fd4caf9ac85d7595fda2c, type: 3}
+      propertyPath: m_Simulated
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2945910675921556811, guid: 1c605e8b238fd4caf9ac85d7595fda2c, type: 3}
       propertyPath: m_SleepingMode
