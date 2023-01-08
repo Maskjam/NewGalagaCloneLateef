@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class enemyController : MonoBehaviour
+public class EnemyController : MonoBehaviour
 {
-  public float speed;
+    public float speed;
     public bool vertical;
     public float changeTime = 3.0f;
 

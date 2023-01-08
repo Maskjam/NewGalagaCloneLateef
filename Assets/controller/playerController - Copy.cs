@@ -64,4 +64,3 @@ public class playerController : MonoBehaviour
         Debug.Log(currentHealth + "/" + maxHealth);
     }
 }
-
