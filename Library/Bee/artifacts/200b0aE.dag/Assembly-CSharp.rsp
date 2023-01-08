@@ -351,6 +351,7 @@
 "Assets/controller/enemyController.cs"
 "Assets/controller/playerController - Copy.cs"
 "Assets/controller/playerController.cs"
+"Assets/controller/projectilePrefab.cs"
 -langversion:9.0
 
 /deterministic
