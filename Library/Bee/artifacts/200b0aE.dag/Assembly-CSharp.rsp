@@ -346,6 +346,8 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/controller/DamageZone.cs"
+"Assets/controller/enemyController - Copy.cs"
 "Assets/controller/enemyController.cs"
 "Assets/controller/playerController - Copy.cs"
 "Assets/controller/playerController.cs"
