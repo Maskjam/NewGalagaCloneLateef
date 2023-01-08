@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class enemyController : MonoBehaviour
 {
-   public float speed;
+    public float speed;
     public bool vertical;
     public float changeTime = 3.0f;
 
@@ -46,5 +46,13 @@ public class enemyController : MonoBehaviour
         rigidbody2D.MovePosition(position);
     }
 
-   
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        playerController player = other.gameObject.GetComponent<playerController >();
+
+        if (player != null)
+        {
+            player.ChangeHealth(-1);
+        }
+    }
 }
